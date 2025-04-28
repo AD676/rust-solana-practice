@@ -1,0 +1,7 @@
+[workspace]
+members = ["programs/anchor_project"]
+resolver = "2"
+
+[patch.crates-io]
+ahash = { path = "../../../local_crates/aHash" }
+hashbrown = { git = "https://github.com/rust-lang/hashbrown.git", tag = "v0.12.3" }

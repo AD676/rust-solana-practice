@@ -1,0 +1,9 @@
+[programs.localnet]
+anchor_project = "62cUMnHaFETt81n2AeHLEVpvSD6awPyh1wrGbhXZ6s8g"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha"

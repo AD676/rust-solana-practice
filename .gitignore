@@ -1,0 +1,17 @@
+# 忽略Solana、Rust构建目录
+target/
+.vscode/
+node_modules/
+.DS_Store
+*.tar.gz
+*.tar.bz2
+
+# 忽略WSL系统自己的文件
+/.bash_history
+/.bash_logout
+/.bashrc
+/.wget-hsts
+/.yarnrc
+/.avm/
+/.anchor/
+.solana/
